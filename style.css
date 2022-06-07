@@ -1,0 +1,86 @@
+body{
+    margin:0px;
+    padding:0px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.main{
+    border: 1px solid red;
+    width:80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
+.calmain{
+    border: 1px solid lightgray;
+    height: 475px;
+    width: 60%;
+    margin: 5px;
+    background-color: #f5bf53;
+    border-radius: 10px;
+}
+.display{
+    /* border: 1px solid red; */
+    height: 100px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 30px;
+    background-color: #221f1854;
+    color: white;
+    border-radius: 10px;
+}
+.numbers{
+    /* border: 1px solid red; */
+    height:55px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.one{
+    /* border: 1px solid red; */
+    height: 55px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.one:active{
+    color: black;
+    background-color: white;
+}
+.one:hover{
+    cursor: pointer;
+}
+.sign{
+    background-color: black;
+       /* border: 1px solid red; */
+       height:55px;
+       margin-top: 20px;
+       border-radius: 5px;
+       display: flex;
+       /* justify-content: center; */
+       /* align-items: center; */
+       color: white;
+}
+.aw{
+    /* border: 1px solid red; */
+    height: 55px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.aw:active{
+    color: black;
+    background-color: white;
+}
+.aw:hover{
+    cursor: pointer;
+}
